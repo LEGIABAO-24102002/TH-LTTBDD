@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Comparison</title>
+</head>
+<body>
+    <script>
+        console.log("---------Coding challenge #7-----------------");
+        // Tạo đối tượng cho Mark và John
+        const mark = {
+            fullName: 'Mark Miller',
+            mass: 78, // kg
+            height: 1.69, // m
+            calcBMI: function() {
+                this.bmi = this.mass / (this.height ** 2);
+                return this.bmi;
+            }
+        };
+
+        const john = {
+            fullName: 'John Smith',
+            mass: 92, // kg
+            height: 1.95, // m
+            calcBMI: function() {
+                this.bmi = this.mass / (this.height ** 2);
+                return this.bmi;
+            }
+        };
+
+        // Tính chỉ số BMI cho Mark và John bằng cách gọi phương thức calcBMI
+        mark.calcBMI();
+        john.calcBMI();
+
+        // So sánh chỉ số BMI và in ra console
+        if (mark.bmi > john.bmi) {
+            console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi})!`);
+        } else if (john.bmi > mark.bmi) {
+            console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})!`);
+        } else {
+            console.log(`${mark.fullName}'s BMI (${mark.bmi}) is the same as ${john.fullName}'s (${john.bmi})!`);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymnastics Competition</title>
+</head>
+<body>
+    <script>
+        console.log("---------Coding challenge #5-----------------");
+        // Tạo hàm tính giá trị trung bình của 3 điểm số
+        const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+
+        // Tính giá trị trung bình cho cả đội Dolphins và đội Koalas
+        const avgDolphinsData1 = calcAverage(44, 23, 71);
+        const avgKoalasData1 = calcAverage(65, 54, 49);
+
+        const avgDolphinsData2 = calcAverage(85, 54, 41);
+        const avgKoalasData2 = calcAverage(23, 34, 27);
+
+        // Tạo hàm kiểm tra người chiến thắng
+        const checkWinner = (avgDolphins, avgKoalas) => {
+            if (avgDolphins >= 2 * avgKoalas) {
+                return `Dolphins win (${avgDolphins} vs. ${avgKoalas})`;
+            } else if (avgKoalas >= 2 * avgDolphins) {
+                return `Koalas win (${avgKoalas} vs. ${avgDolphins})`;
+            } else {
+                return "No team wins!";
+            }
+        };
+
+        // Sử dụng hàm checkWinner để xác định người chiến thắng cho cả Data 1 và Data 2
+        console.log("Data 1: " + checkWinner(avgDolphinsData1, avgKoalasData1));
+        console.log("Data 2: " + checkWinner(avgDolphinsData2, avgKoalasData2));
+    </script>
+</body>
+</html>
