@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <script>
+        console.log("---------Coding challenge #9-----------------");
+        // Tạo hàm 'printForecast' để in dự báo nhiệt độ
+        const printForecast = (arr) => {
+            let forecastString = "";
+            for (let i = 0; i < arr.length; i++) {
+                forecastString += `... ${arr[i]}°C in ${i + 1} days `;
+            }
+            console.log(forecastString);
+        };
+
+        // Dữ liệu kiểm tra
+        const data1 = [17, 21, 23];
+        const data2 = [12, 5, -5, 0, 4];
+
+        // In dự báo nhiệt độ cho cả data1 và data2
+        console.log("Data 1:");
+        printForecast(data1);
+
+        console.log("Data 2:");
+        printForecast(data2);
+    </script>
+</body>
+</html>
