@@ -1,0 +1,144 @@
+{
+    "dbUser": [
+        {
+            "createdAt": "2023-11-11T00:34:44.802Z",
+            "userName": "Reyna_Nicolas59",
+            "email": "Luna.Schowalter@gmail.com",
+            "password": "GlK9zhOfwxkzcDc",
+            "userId": "dc80210e-c419-4d93-b6df-29e7b392e3d4",
+            "id": "1"
+        },
+        {
+            "createdAt": "2023-11-11T00:08:05.857Z",
+            "userName": "Ruthie16",
+            "email": "Darien80@yahoo.com",
+            "password": "0TKgO4OHVh_3nYu",
+            "userId": "d8368b76-bace-4f0b-82dd-9dfad2477eb4",
+            "id": "2"
+        },
+        {
+            "createdAt": "2023-11-10T19:52:53.868Z",
+            "userName": "Lenore_Walter95",
+            "email": "Marion_Leuschke@yahoo.com",
+            "password": "4UaBDYoOeOACgfk",
+            "userId": "c6a37afd-0848-409f-bd9b-a7f19d1ee825",
+            "id": "3"
+        },
+        {
+            "createdAt": "2023-11-11T10:13:36.272Z",
+            "userName": "Kaleigh38",
+            "email": "Joany.Wilderman88@gmail.com",
+            "password": "TGcKEDhUnf4JLZp",
+            "userId": "f272c5cf-c6e5-49f3-9249-9afd287f2e1e",
+            "id": "4"
+        },
+        {
+            "createdAt": "2023-11-11T07:38:29.214Z",
+            "userName": "Kari.Jerde12",
+            "email": "Kennith1@yahoo.com",
+            "password": "I4Ojb3MDof2f6b8",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266285bf4c51",
+            "id": "5"
+        },
+        {
+            "createdAt": "2023-11-11T07:38:29.214Z",
+            "userName": "jiag293",
+            "email": "jiag293@gmail.com",
+            "password": "10101010",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "id": "5"
+        }
+    ],
+    "dbNotes": [
+        {
+            "createdAt": 1699708522,
+            "title": "title",
+            "contentNote": "International",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "priority": 1,
+            "task": "Done",
+            "id": "1"
+        },
+        {
+            "createdAt": 1699708462,
+            "title": "title",
+            "contentNote": "National",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "priority": 2,
+            "task": "Short Term",
+            "id": "2"
+        },
+        {
+            "createdAt": 1699708402,
+            "title": "title",
+            "contentNote": "Human",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "priority": 3,
+            "task": "Long Term",
+            "id": "3"
+        },
+        {
+            "createdAt": 1699708342,
+            "title": "title",
+            "contentNote": "Investor",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "priority": 2,
+            "task": "Short Term",
+            "id": "4"
+        },
+        {
+            "createdAt": 1699708282,
+            "title": "title",
+            "contentNote": "Internal",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "priority": 1,
+            "task": "Long Term",
+            "id": "5"
+        },
+        {
+            "createdAt": 1699708222,
+            "title": "title",
+            "contentNote": "Corporate",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "priority": 2,
+            "task": "Long Term",
+            "id": "6"
+        },
+        {
+            "createdAt": 1699708162,
+            "title": "title",
+            "contentNote": "Short Term",
+            "userId": "ae8eb83b-4f5b-482d-91ff-266b85bf4c51",
+            "priority": 3,
+            "task": "Long Term",
+            "id": "7"
+        },
+        {
+            "createdAt": 1699708102,
+            "title": "title",
+            "contentNote": "Regional",
+            "userId": "65beee96-4c9b-4ecb-8b82-9da0634edacc",
+            "priority": 2,
+            "task": "Done",
+            "id": "8"
+        },
+        {
+            "createdAt": 1699708042,
+            "title": "title",
+            "contentNote": "Future",
+            "userId": "13b2702e-d685-4463-a644-e0ea35e134f5",
+            "priority": 1,
+            "task": "Done",
+            "id": "9"
+        },
+        {
+            "createdAt": 1699707982,
+            "title": "title",
+            "contentNote": "International",
+            "userId": "234c228b-588c-47f7-bd50-d75b76d05c8a",
+            "priority": 2,
+            "task": "Done",
+            "id": "10"
+        }
+    ]
+}
